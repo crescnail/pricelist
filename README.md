@@ -1,20 +1,2 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/drive/1r_rxEWDBZLVN834k2KbXQPzH9_kUztUV
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+這是一個基於 LINE LIFF 架構開發的單頁應用程式 (SPA)。針對美甲服務中常見的『組合式計價』痛點（如：不同卸甲狀況、特殊技法加購、單指計算），設計了直覺的動態試算流程。
+UI採用極簡的米色調 (Stone/Cream) 與優雅襯線字體，呼應 cresc.nail 的品牌美學，在確保資訊清晰的同時，不失視覺上的溫度與質感。
