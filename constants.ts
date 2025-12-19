@@ -19,8 +19,8 @@ export const SECTION_1: SectionData = {
     "將準備至少2組專屬設計提案供您在預約日選擇，並可於當日討論微幅調整。"
   ],
   items: [
-    { id: 'c1', name: '6指 創作設計', description: '6指設計，其餘單色/貓眼', price: 1780, category: ServiceCategory.CREATION, isBaseOption: true },'    { id: 'c2', name: '10指 創作設計', price: 2080, category: ServiceCategory.CREATION, isBaseOption: true },
-  ],
+    { id: 'c1', name: '6指 創作設計', price: 1780, description: '6指設計，其餘單色/貓眼',category: ServiceCategory.CREATION, isBaseOption: true },
+    { id: 'c2', name: '10指 創作設計', price: 2080, category: ServiceCategory.CREATION, isBaseOption: true },  ],
   description: [
     "我們相信美好的創作源於信任與共鳴。",
     "在預約此服務前，請務必參考我們的作品集，確認風格符合您的期待後再預約。",
