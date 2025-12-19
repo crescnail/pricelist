@@ -94,7 +94,7 @@ const SectionRenderer: React.FC<SectionRendererProps> = ({ data, onShowInfo }) =
             >
               <span className="text-sm font-bold flex items-center gap-2">
                 <BookOpenText size={16} className={isPolicyOpen ? 'text-stone-600' : 'text-stone-400 group-hover:text-stone-600'} />
-                須知與規範
+                設計溝通
               </span>
               {isPolicyOpen ? (
                 <ChevronUp size={16} className="text-stone-500" />
