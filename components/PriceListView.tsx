@@ -69,7 +69,7 @@ const SectionRenderer: React.FC<SectionRendererProps> = ({ data, onShowInfo }) =
               <span className="font-bold text-stone-900 font-brand italic text-xl">${item.price}</span>
             </div>
             {item.description && (
-              <span className="text-sm text-stone-500 mt-1">{item.description}</span>
+              <span className="text-sm text-stone-400 mt-1 italic">{item.description}</span>
             )}
           </div>
         ))}
