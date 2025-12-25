@@ -24,7 +24,9 @@ function App() {
         </header>
 
         {/* Tab Switcher (Sticky below header) */}
-        <p className="text-center text-xs text-stone-400 m-2 tracking-widest">此版本項目價格將於 2026.02.01 起啟用。</p>
+        <p className="text-center text-xs text-stone-400 m-2 tracking-widest">
+          為維持施作品質與服務完整度，部分項目已進行價格調整。<br/>
+          此版本項目價格將於 2026.02.01 起啟用。</p>
         <div className="px-4 py-2 sticky top-[85px] z-30 bg-[#faf9f6]">
           <div className="bg-stone-200 p-1 rounded-full flex relative">
             {/* Animated Background Slider could be added here for extra polish, utilizing Framer Motion, but standard CSS is safer for this constraints */}
